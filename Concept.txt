@@ -22,6 +22,10 @@ cmd : git commit -A
 cmd : git rm -- cached  git.html 
 
 
+# to see commits( use -1/-2 to see last first or sec comit )
+
+cmd : git log 
+
 
 
 
