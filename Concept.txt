@@ -1,0 +1,43 @@
+
+#compares working tree with staging area 
+
+cmd : git diff 
+
+#comapre staged area with last commit
+
+cmd : git diff --staged  
+
+#used to directly commit the files skkipping the stage
+
+cmd : git commit -a -m "message"  
+
+# we have to atleast once staged the untrack file to diractly commit
+
+#to staged all untrack files use 
+
+cmd : git commit -A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
