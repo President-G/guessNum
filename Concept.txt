@@ -27,10 +27,16 @@ cmd : git rm -- cached  git.html
 cmd : git log 
 
 
+# green M  --> denotes modified but staged 
+# red M --> modified but not staged 
 
+# modified and not staged ko last commit jaisa banane ke liye 
 
+cmd : git checkout filename 
 
+# uncommited file ke baare mai
 
+cmd : git status -s ( remove -s if wnat full status )
 
 
 
