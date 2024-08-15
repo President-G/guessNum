@@ -19,7 +19,7 @@ cmd : git commit -A
 
 # ex if git.html in staged remove using rm  then it became untracked file 
 
-cmd : git rm -- cached  git.html 
+cmd : git rm -- cached  git.html s
 
 
 # to see commits( use -1/-2 to see last first or sec comit )
@@ -41,7 +41,8 @@ cmd : git status -s ( remove -s if wnat full status )
 # git do not track emty folder s
 
 
-jhbrjhbgh
+# to ignore do not add and commit 
+
 
 
 
