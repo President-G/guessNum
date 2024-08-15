@@ -44,6 +44,16 @@ cmd : git status -s ( remove -s if wnat full status )
 # to ignore do not add and commit 
 
 
+# to make new brach 
+
+ git branch   NAME
+
+# to show all branches
+
+git branch
+
+
+
 
 
 
