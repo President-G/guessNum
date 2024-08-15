@@ -36,7 +36,7 @@ cmd : git checkout filename
 
 # uncommited file ke baare mai
 
-cmd : git status -s ( remove -s if wnat full status )
+
 
 
 
