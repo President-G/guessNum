@@ -1,5 +1,6 @@
 logs/
 
 ignore/
-*.txt
+k.txt
+
 *.cpp
