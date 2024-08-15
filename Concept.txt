@@ -17,6 +17,11 @@ cmd : git commit -a -m "message"
 
 cmd : git commit -A
 
+# ex if git.html in staged remove using rm  then it became untracked file 
+
+cmd : git rm -- cached  git.html 
+
+
 
 
 
